@@ -1,0 +1,7 @@
+http://blog.csdn.net/sunnylgz/article/details/40779973
+
+1、安装dconf-editor
+sudo apt-get install dconf-editor
+2、用Dconf-editor调整，并访问如下配置路径
+org > gnome > desktop > remote-access
+3、取消钩选 “requlre-encryption”属性。
